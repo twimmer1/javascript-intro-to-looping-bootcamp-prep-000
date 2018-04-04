@@ -23,7 +23,7 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     array.unshift()
-  // console.log(array);
+   console.log(array);
 } while (array.length > 0 && maybeTrue());
 
   return array
