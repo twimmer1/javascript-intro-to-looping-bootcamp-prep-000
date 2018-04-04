@@ -18,7 +18,7 @@ return "done"
 
 function doWhileLoop(array) {
   do {
-    array.length > 0 && maybeTrue();
+    array.unshift()
   console.log(array);
-} while (maybeTrue());
+} while (array.length > 0 && maybeTrue());
 }
